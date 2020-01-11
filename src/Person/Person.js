@@ -4,7 +4,7 @@ import "./Person.css";
 const person = props => {
   return (
     <article className="Person">
-      <date>Last Update &mdash; {props.time}</date>
+      <span>Last Update &mdash; {props.time}</span>
       <section>
         <h1>Code Scheme</h1>
         <h3>
